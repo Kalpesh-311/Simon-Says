@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Button Container */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.line-one, .line-two {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+/* Button Styles */
+.btn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
+/* Color Variables */
+:root {
+    --red: red;
+    --yellow: yellow;
+    --green: green;
+    --purple: purple;
+    --black: #000;
+}
+
+/* Button Colors */
+.red {
+    background-color: var(--red);
+}
+
+.yellow {
+    background-color: var(--yellow);
+    color: var(--black); /* Black text for better contrast */
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+/* Flash Effect */
+.flash {
+    opacity: 0.5;
+}
